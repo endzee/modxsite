@@ -1,0 +1,269 @@
+/*выпадашка в шапке*/
+
+.in-header-bottom .chzn-container {
+  font-size: 13px;
+  position: relative;
+  float: left;
+  border:1px solid #ddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.in-header-bottom .chzn-container input {
+  border: 1px solid #aaa;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0px;
+  padding: 4px 5px;
+  outline: none;
+}
+.in-header-bottom .chzn-container textarea:focus {
+  border-color: #058cf5;
+}
+
+
+.in-header-bottom .chzn-container .chzn-drop {
+  border-width: 0 1px 1px;
+  position: absolute;
+  top: 29px;
+  z-index: 999;
+  width:140px!important;
+}
+.in-header-bottom .chzn-container-single .chzn-drop {
+ 
+}
+
+
+/* SINGLE */
+.in-header-bottom .chzn-container a.chzn-single {
+  display: block;
+  overflow: hidden;
+  height: 22px;
+  color: #000;
+  line-height: 21px;
+  padding: 0px 0px 0px 8px;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 135px !important;
+  font-size: 11px;
+}
+.in-header-bottom .chzn-container .chzn-single span {
+  display: block;
+  margin-right: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.in-header-bottom .chzn-container a.chzn-single div {
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18px;
+}
+.in-header-bottom .chzn-container a.chzn-single div b {
+  background: url('chosen-sprite.png') no-repeat 0 1px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.in-header-bottom .chzn-container div.chzn-search {
+  display:none;
+}
+
+/* Results */
+.in-header-bottom .chzn-container ul.chzn-results {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width:140px!important;
+  left:3px;
+}
+.in-header-bottom .chzn-container-multi ul.chzn-results {
+  margin: -1px 0 0;
+  padding: 0;
+}
+.in-header-bottom .chzn-container-multi ul.chzn-results li {
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+.in-header-bottom .chzn-container ul.chzn-results li {
+  line-height: 80%;
+  padding: 10px 7px;
+  margin: 0;
+  list-style-type: none;
+  border-top: 1px solid #E4E4E4;
+  background:#f5f4f4;
+  color:#000;
+  font-size: 11px;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.active-result {
+  cursor: pointer;
+}
+.in-header-bottom .chzn-container ul.chzn-results li em {
+  font-style: normal;
+  background: #FEFFDC;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.highlighted {
+  background: #fff;
+  color: #000;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.highlighted em {
+  background: transparent;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.no-results {
+  background: #F4F4F4;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.group-result {
+  cursor: default;
+  color: #999;
+  font-weight: bold;
+}
+.in-header-bottom .chzn-container ul.chzn-results li.group-option {
+  padding-left: 20px;
+}
+
+.in-header-bottom .chzn-container-multi .chzn-drop li.result-selected {
+  display: none;
+}
+/*конец выпадашка в шапке*/
+
+/*выпадашка в сортировке*/
+
+.sort .chzn-container {
+  font-size: 13px;
+  position: relative;
+  float: left;
+  border:1px solid #ddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.sort .chzn-container input {
+  border: 1px solid #aaa;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0px;
+  padding: 4px 5px;
+  outline: none;
+}
+.sort .chzn-container textarea:focus {
+  border-color: #058cf5;
+}
+
+
+.sort .chzn-container .chzn-drop {
+  border-width: 0 1px 1px;
+  position: absolute;
+  top: 29px;
+  z-index: 999;
+  width:140px!important;
+}
+.sort .chzn-container-single .chzn-drop {
+ 
+}
+
+
+/* SINGLE */
+.sort .chzn-container a.chzn-single {
+  display: block;
+  overflow: hidden;
+  height: 22px;
+  color: #000;
+  line-height: 21px;
+  padding: 0px 0px 0px 8px;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 135px !important;
+  font-size: 11px;
+}
+.sort .chzn-container .chzn-single span {
+  display: block;
+  margin-right: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sort .chzn-container a.chzn-single div {
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18px;
+}
+.sort .chzn-container a.chzn-single div b {
+  background: url('chosen-sprite.png') no-repeat 0 1px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sort .chzn-container div.chzn-search {
+  display:none;
+}
+
+/* Results */
+.sort .chzn-container ul.chzn-results {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width:140px!important;
+  left:3px;
+}
+.sort .chzn-container-multi ul.chzn-results {
+  margin: -1px 0 0;
+  padding: 0;
+}
+.sort .chzn-container-multi ul.chzn-results li {
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+.sort .chzn-container ul.chzn-results li {
+  line-height: 80%;
+  padding: 10px 7px;
+  margin: 0;
+  list-style-type: none;
+  border-top: 1px solid #E4E4E4;
+  background:#f5f4f4;
+  color:#000;
+  font-size: 11px;
+}
+.sort .chzn-container ul.chzn-results li.active-result {
+  cursor: pointer;
+}
+.sort .chzn-container ul.chzn-results li em {
+  font-style: normal;
+  background: #FEFFDC;
+}
+.sort .chzn-container ul.chzn-results li.highlighted {
+  background: #fff;
+  color: #000;
+}
+.sort .chzn-container ul.chzn-results li.highlighted em {
+  background: transparent;
+}
+.sort .chzn-container ul.chzn-results li.no-results {
+  background: #F4F4F4;
+}
+.sort .chzn-container ul.chzn-results li.group-result {
+  cursor: default;
+  color: #999;
+  font-weight: bold;
+}
+.sort .chzn-container ul.chzn-results li.group-option {
+  padding-left: 20px;
+}
+
+.sort .chzn-container-multi .chzn-drop li.result-selected {
+  display: none;
+}
+/*выпадашка в сортировке*/

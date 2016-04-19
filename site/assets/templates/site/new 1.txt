@@ -1,0 +1,21 @@
+<!--центральный блок-->
+		[[Ditto? &tpl=`news-article` &dateSource=`pub_date` &dateFormat=`%d.%m.%Y` &paginate=`1` &display=`2` ]]
+
+		<div id="news">
+			<h2><a href="[~[+id+]~]" title="[+pagetitle+]">[+pagetitle+]</a></h2>
+			<div class="introtext"><span class="date">[+date+]</span> [+introtext+] </div>
+			<div class="readmore" ><a href="[~[+id+]~]" title="Перейти к полному тексту новости">Читать дальше →</a></div>
+		</div>
+
+		<div class="pagination">
+			Страницы: [[dittoSplitPagination]][+previous+][+splitPages+][+next+] 
+		</div>
+<!--центральный блок конец-->
+
+		[[Ditto? &tpl=`news-article` &dateSource=`pub_date` &dateFormat=`%d.%m.%Y` &paginate=`1` &display=`2` ]]
+		
+		<div id="news">
+			<h2><a href="[~[+id+]~]" title="[+pagetitle+]">[+pagetitle+]</a></h2>
+			<div class="introtext"><span class="date">[+date+]</span> [+introtext+] </div>
+			<div class="readmore" ><a href="[~[+id+]~]" title="Перейти к полному тексту новости">Читать дальше →</a></div>
+		</div>
